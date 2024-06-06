@@ -1,5 +1,6 @@
 # This repository is for my practice tasks in CSS module :)
 [001: Connection methods](./001-connection-methods/)  
 [002: Selectors](./002-selectors/)  
-[003: Properties](./003-properties/)
-[004: Colors](./004-colors/)
+[003: Properties](./003-properties/)  
+[004: Colors](./004-colors/)  
+[005: Fonts properties](./005-fonts-properties/)  
