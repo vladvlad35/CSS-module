@@ -6,3 +6,4 @@
 [005: Fonts properties](./005-fonts-properties/)  
 [006: Positions](./006-postions/)  
 [007: Meme cat](./007-meme-cat/)  
+[008: Transform translate](./008-transform-translate/)  
