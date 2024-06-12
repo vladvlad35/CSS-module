@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat's CVs</title>
+    <style>
+        body {
+            background-color: #FCDC94;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #78ABA8;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: #7E8EF1;
+            font-size: 1.5rem;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card {
+            width: 45%;
+            border: 2px #78ABA8 solid;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            background-color: #C8CFA0;
+            transition: transform 0.1s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .name {
+            font-weight: bold;
+            margin: 5px 0 3px 0;
+            color: #124076;
+            font-size: 1.5rem;
+        }
+
+        .skillDescription {
+            font-size: 1em;
+            margin: 5px 0 10px 0;
+        }
+
+        .cardImg {
+            max-width: 90%;
+            margin: 10px 0 0 0;
+            border-radius: 10px;
+            border: 3px dotted #B5C18E;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: calc(100% - 20px);
+            }
+
+            .card:hover {
+                transform: scale(1.02)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the freelancers cat's CVs</h1>
+    <p class="subtitle">Here are the best workers!</p>
+    <div class="cards">
+        <div class="card">
+            <img src="https://loremflickr.com/200/100?lock=1" class="cardImg">
+            <p class="name">Simon</p>
+            <p class="skillDescription">Professional sleeper</p>
+        </div>
+
+        <div class="card">
+            <img src="https://loremflickr.com/200/100?lock=2" class="cardImg">
+            <p class="name">Macquen</p>
+            <p class="skillDescription">Professional Meower</p>
+        </div>
+
+        <div class="card">
+            <img src="https://loremflickr.com/200/100?lock=5" class="cardImg">
+            <p class="name">Snowy</p>
+            <p class="skillDescription">Professional eater</p>
+        </div>
+
+        <div class="card">
+            <img src="https://loremflickr.com/200/100?lock=8" class="cardImg">
+            <p class="name">Snowy</p>
+            <p class="skillDescription">The cutest kitten</p>
+        </div>
+    </div>
+</body>
+
+</html>
