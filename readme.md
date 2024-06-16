@@ -10,4 +10,7 @@
 [009: Display (2 parts)](./009-display/)  
 [010: Media](./010-media/)  
 [011: Portfolio](./011-portfolio/)  
-[012: Menu](./012-menu/)
+[012: Menu](./012-menu/)  
+[013: Adaptive containers](./013-adaptive-containers/)  
+[014: Flex sizing](./014-flex-sizing/)  
+[015: Subscription cards](./015-subscription-cards/)  
