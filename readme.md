@@ -14,3 +14,4 @@
 [013: Adaptive containers](./013-adaptive-containers/)  
 [014: Flex sizing](./014-flex-sizing/)  
 [015: Subscription cards](./015-subscription-cards/)  
+[016: Chess](./016-chess/)
