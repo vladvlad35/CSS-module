@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grip practice</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 300px auto minmax(200px, 300px);
+            grid-template-rows: repeat(3, 100px);
+            grid-auto-rows: 70px;
+            gap: 10px;
+        }
+
+        .square {
+            background-color: #465f68;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fixed square">300px * 100 px</div>
+        <div class="flexible square"> :) flexible </div>
+        <div class="minmax square">200px - 300px * 100px</div>
+        <div class="fixed square">300px * 100 px</div>
+        <div class="flexible square"> :) flexible </div>
+        <div class="minmax square">200px - 300px * 100px</div>
+        <div class="fixed square">300px * 100 px</div>
+        <div class="flexible square"> :) flexible </div>
+        <div class="minmax square">200px - 300px * 100px</div>
+        <div class="other square">300px * 70px</div>
+    </div>
+
+</body>
+
+</html>
