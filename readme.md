@@ -16,3 +16,5 @@
 [015: Subscription cards](./015-subscription-cards/)  
 [016: Chess](./016-chess/)  
 [017: Grid practice](./017-grid-practice/)  
+[018: Grid placement](./018-grid-placement/)  
+[019: Layout](./019-layout/)  
