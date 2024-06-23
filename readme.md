@@ -19,3 +19,4 @@
 [018: Grid placement](./018-grid-placement/)  
 [019: Layout](./019-layout/)  
 [020: Bootstrap into](./020-bootstrap-intro-practice/)  
+[021: Bootstrap layout](./021-bootstrap-layout/)  
